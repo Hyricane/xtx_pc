@@ -85,7 +85,7 @@
     justify-content: space-between;
 }
 .title span{
-    margin-top: 52px
+    margin-top: 52px;
 }
 .title .desc{
     display: flex;
@@ -95,9 +95,30 @@
     margin-top: 40px;
 }
 .title .desc span{
+    color: #A1A1A1;
+}
+.title span>a{
     margin-top: 52px;
     color: #A1A1A1
 }
+.title .nav_type{
+    display: inline-block;
+    margin-right: 65px;
+}
+.title .nav_type ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title .nav_type ul li a{
+    font-size: 16px;
+    color: #333;
+    padding: 0 5px 0 5px;
+    margin-left: 10px;
+}
+.title .nav_type ul li a:hover{
+    background-color: #00BE9A;
+}
+
 .cards{
     height: 404px;
 }
@@ -113,6 +134,11 @@
     height: 404px;
     width: 304px;
 }
+.cards ul li .size1{
+    display: block;
+    width: 244px;
+    height: 404px;
+}
 .cards ul li .bgc_1{
     background-color: #EEF9F4;
 }
@@ -121,7 +147,7 @@
     margin-top: 17.5px;
     font-size: 20px;
 }
-.cards ul li a .price{
+.price{
     font-size: 22px;
     text-align: center;
     margin-top: 8.5px;
@@ -132,4 +158,81 @@
     text-align: center;
     margin-top: 15px;
     color: #A1A1A1 ;
+}
+.bgc_hot{
+    background-color: #F5F5F5;
+}
+.hot_box{
+    height: 468px;
+}
+.hot_box .title{
+    position: relative;
+}
+.hot_box .arr{
+    display: flex;
+    justify-content: space-between;
+    width: 52px;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+.hot_box .arr div{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #E2E2E2;
+}
+.hot_box .arr div:hover{
+    background-color: #00BE9A;
+}
+.cards2{
+    display: flex;
+}
+.cards2 .left{
+    width: 248px;
+    height: 610px;
+    margin-right: 24px;
+}
+.cards2 .right ul{
+    display: flex;
+    width: 968px;
+    flex-wrap: wrap;
+}
+.cards2 .right ul li{
+    height: 305px;
+    width: 242px;
+    padding: 10px 21px 0 21px;
+    position: relative;
+}
+.cards2 .right ul li img{
+    width: 200px;
+    height: 180px;
+}
+.cards2 .right ul li>a{
+    width: 200px;
+    height: 180px;
+}
+.cards2 .right ul li .cover{
+    width: 242px;
+    height: 83.5px;
+    position: absolute;
+    bottom: 0;
+    background-color: #00BE9A;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: #fff;
+    /* opacity: 0; */
+}
+.cards2 .right ul li .cover hr{
+    width: 120px;
+}
+.cards2 .right ul li .cover p:first-child a{
+    font-size: 18px;
+    padding-bottom: 3.5px;
+    width: 120px;
+}
+.cards2 .right ul li .cover p:last-child a{
+    font-size: 13px;
 }
