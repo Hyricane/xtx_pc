@@ -1,0 +1,135 @@
+/* banner区 */
+.banner{
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+.banner aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.42);  
+}
+.banner aside ul li{
+    display: flex;
+    height: 50px;
+    padding:0 20px 0 29px;
+    justify-content: space-between;
+}
+.banner .banner_img{
+    flex: 1;
+}
+.banner aside ul li dl{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.banner aside ul li dl dt{
+    margin-right: 14px;
+}
+.banner aside ul li dl dd{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.banner aside ul li dl a{
+    color: #fff;
+}
+.banner aside ul li::after{
+    content: ">";
+    line-height: 50px;
+    color: #fff;
+}
+.banner aside ul li:hover{
+    background-color: #00BE9A;
+}
+.banner .dots{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    margin-right: 14px;
+    align-items: center;
+}
+.banner .dots div{
+    width: 22px;
+    height: 22px;
+    border-radius: 21px;
+    position: relative;
+    background-color: #C0CDBB;
+}
+.banner .dots span{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-left: 8px;
+    background-color: #fff;
+}
+.banner .dots div span{
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: absolute;
+    background-color: #fff;
+}
+.fresh_box{
+    height: 516px;
+}
+.title{
+    display: flex;
+    height: 112px;
+    justify-content: space-between;
+}
+.title span{
+    margin-top: 52px
+}
+.title .desc{
+    display: flex;
+}
+.title .desc h2{
+    margin-right: 35px;
+    margin-top: 40px;
+}
+.title .desc span{
+    margin-top: 52px;
+    color: #A1A1A1
+}
+.cards{
+    height: 404px;
+}
+.cards ul{
+    display: flex;
+    justify-content: space-between;
+}
+.cards ul li img{
+    height: 304px;
+}
+.cards ul li a{
+    display: block;
+    height: 404px;
+    width: 304px;
+}
+.cards ul li .bgc_1{
+    background-color: #EEF9F4;
+}
+.cards ul li a h3{
+    text-align: center;
+    margin-top: 17.5px;
+    font-size: 20px;
+}
+.cards ul li a .price{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 8.5px;
+    color: #AA2113 ;
+}
+.cards ul li a .recommend{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    color: #A1A1A1 ;
+}
