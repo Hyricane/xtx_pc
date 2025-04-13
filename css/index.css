@@ -214,6 +214,21 @@
     width: 200px;
     height: 180px;
 }
+.cards2 .right ul li>a>.desc{
+    margin-top: 10px;
+    height: 95px;
+}
+.cards2 .right ul li>a>.desc p{
+    font-size: 16px;
+    margin: 0;
+}
+.cards2 .right ul li>a>.desc .price{
+    text-align: left;
+    font-size: 22px;
+}
+.cards2 .right ul li>a>.desc p:last-child{
+    margin-bottom: 7px;
+}
 .cards2 .right ul li .cover{
     width: 242px;
     height: 83.5px;
@@ -221,18 +236,85 @@
     bottom: 0;
     background-color: #00BE9A;
     padding: 15px 0 15px 0;
-    text-align: center;
+    justify-content: center;
     color: #fff;
-    /* opacity: 0; */
-}
-.cards2 .right ul li .cover hr{
-    width: 120px;
+    opacity: 0;
 }
 .cards2 .right ul li .cover p:first-child a{
+    padding: 0 51px 0 51px;
     font-size: 18px;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 3.5px;
     width: 120px;
+    margin-left: 30px;
+    color: #fff;
 }
 .cards2 .right ul li .cover p:last-child a{
     font-size: 13px;
+    text-align: center;
+    margin-left: 70px;
+    color: #fff;
+}
+.cards2 .right ul li .cover:hover{
+    margin-left: -22.5px;
+    opacity: 1;
+}
+.cards2 .right ul li:hover{
+    border: 2px solid #00BE9A;
+}
+.news_box .cards li a{
+    display: block;
+    height: 355px;
+    width: 405px;
+    padding-top: 15px;
+    position: relative;
+}
+.news_box .cards .show{
+    width: 100%;
+    height: 70px;
+    margin-top: 204px;
+    padding-left: 15px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.7));
+}
+.news_box .cards .show p:first-child{
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: white;
+}
+.news_box .cards .show p:nth-child(2){
+    font-size: 16px;
+    color: white;
+    margin-bottom: 6px;
+}
+.news_box .cards .show .price{
+    position: absolute;
+    font-size: 18px;
+    right: 10px;
+    bottom: 87px;
+    background-color: #fff;
+}
+.news_box .cards a .comment{
+    display: flex;
+    justify-content: space-between;
+    width: 405px;
+    padding: 23px 15px 24px 15px;
+    font-size: 14px;
+}
+.news_box .cards a .comment .left span:nth-child(1){
+    color: #AA2113;
+}
+.news_box .cards a .comment .left span:nth-child(3){
+    margin-left: 20px; 
+}
+.news_box .cards li:nth-child(1) a{
+    background-image: url(../uploads/topic1.png);
+    background-repeat: no-repeat;
+}
+.news_box .cards li:nth-child(2) a{
+    background-image: url(../uploads/topic2.png);
+    background-repeat: no-repeat;
+}
+.news_box .cards li:nth-child(3) a{
+    background-image: url(../uploads/topic3.png);
+    background-repeat: no-repeat;
 }
